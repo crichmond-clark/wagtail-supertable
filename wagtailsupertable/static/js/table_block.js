@@ -29548,7 +29548,7 @@ function stateToHTML(content, options) {
             name: 'Green',
             callback: setCellColor
           }, {
-            key: 'color:Yellow',
+            key: 'color:yellow',
             name: 'Yellow',
             callback: setCellColor
           },{
