@@ -103,18 +103,31 @@ import { stateToHTML } from 'draft-js-export-html';
         colorMenu.key = "color";
         colorMenu.submenu = {
           items: [{
-            key: 'color:red',
-            name: 'Red',
+            key: 'color:blue',
+            name: 'Blue',
             callback: setCellColor
           }, {
             key: 'color:green',
             name: 'Green',
             callback: setCellColor
           }, {
-            key: 'color:yellow',
+            key: 'color:Yellow',
             name: 'Yellow',
             callback: setCellColor
-          }]
+          },{
+            key: 'color:teal-dark',
+            name: 'Teal Dark',
+            callback: setCellColor
+          },{
+            key: 'color:teal-medium',
+            name: 'Teal Medium',
+            callback: setCellColor
+          },{
+            key: 'color:teal-light',
+            name: 'Teal Light',
+            callback: setCellColor
+          }
+            ]
         }
       }
     });

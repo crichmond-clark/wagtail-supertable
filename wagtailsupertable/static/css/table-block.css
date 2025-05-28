@@ -71,16 +71,28 @@ table[id$=sortable-input] .sortable-type-input {
     flex: 1;
 }
 
-.handsontable .red {
-    background-color: #fec5c7;
+.handsontable .blue {
+    background-color: #194076;
 }
 
 .handsontable .green {
-    background-color: #cff2d0;
+    background-color: #0b8847;
 }
 
 .handsontable .yellow {
-    background-color: #fffac3;
+    background-color: #e1dd00;
+}
+
+.handsontable .teal-dark {
+    background-color: #046473;
+}
+
+.handsontable .teal-medium {
+    background-color: #41b8b9;
+}
+
+.handsontable .teal-light {
+    background-color: #c6e5e4;
 }
 
 .handsontable table td p {
